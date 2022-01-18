@@ -28,6 +28,7 @@ adb :https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn
 git clone https://github.com/openatx/atxserver2.git
 yum install docker-ce docker-ce-cli containerd.io --allowerasing
 service docker start
+pip3 install docker-compose
 ```
 
 解决访问问题（关闭防火墙）
