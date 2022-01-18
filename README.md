@@ -36,6 +36,7 @@ pip3 install docker-compose
 ```
 systemctl stop firewalld.service
 systemctl disable firewalld.service
+reboot(关闭防火墙后需重启系统)
 ```
 
 运行
