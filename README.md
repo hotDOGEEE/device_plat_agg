@@ -26,7 +26,7 @@ adb :https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn
 
 ```
 git clone https://github.com/openatx/atxserver2.git
-curl -sSL https://get.daocloud.io/docker | sh
+yum -y install docker
 service docker start
 ```
 
