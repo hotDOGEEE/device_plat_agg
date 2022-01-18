@@ -67,6 +67,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 安装nodejs,文档没有更新，只说了nodejs8才适用，但实际上nodejs8中太高的版本依然不行，这边使用8.9.4可以成功部署
 
 ```
+git clone https://github.com/openatx/atxserver2-android-provider.git
 cd atxserver2-android-provider
 nvm install 8.9.4
 npm install
