@@ -14,11 +14,11 @@
 
 ## 共用内容
 
-python3.8
+python3.8：yum install python3.8
 
-nvm
+nvm: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
-adb
+adb :https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn 从此处下载
 
 ## atx-server2
 
