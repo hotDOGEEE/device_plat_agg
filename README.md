@@ -45,6 +45,12 @@ reboot(关闭防火墙后需重启系统)
 cd atxserver2
 docker-compose up
 ```
+如果遇到不能访问的问题检查docker映射设置，尝试直接使用
+```
+docker ps -a
+docker start rethinkdb_imageid
+docker start web_imageid
+```
 
 代码有修改后更新
 
