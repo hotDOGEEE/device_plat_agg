@@ -14,7 +14,7 @@
 
 ## 共用内容
 
-python3.8：yum install python3.8
+python3.8：yum install python38
 
 nvm: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
