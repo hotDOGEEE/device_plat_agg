@@ -30,13 +30,6 @@ yum install docker-ce docker-ce-cli containerd.io --allowerasing
 service docker start
 ```
 
-运行
-
-```
-cd atxserver2
-docker-compose up
-```
-
 解决访问问题（关闭防火墙）
 
 ```
@@ -44,7 +37,14 @@ systemctl stop firewalld.service
 systemctl disable firewalld.service
 ```
 
-修改后更新
+运行
+
+```
+cd atxserver2
+docker-compose up
+```
+
+代码有修改后更新
 
 ```
 docker-compose up --force-recreate --build -d
