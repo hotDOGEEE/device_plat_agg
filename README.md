@@ -101,7 +101,7 @@ yum install usbmuxd
 SERVER_URL="http://localhost:4000"
 tidevice applist | grep "WebDriverAgent"
 WDA_BUNDLE_PATTERN="(bundle name)"
-python3 main.py -s $SERVER_URL -usb-tidevice --wda-bundle-pattern $WDA_BUNDLE_PATTERN
+python3 main.py -s $SERVER_URL --use-tidevice --wda-bundle-pattern $WDA_BUNDLE_PATTERN
 ```
 
 ## ws-scrcpy
