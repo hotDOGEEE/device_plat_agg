@@ -105,6 +105,7 @@ python3 main.py -s $SERVER_URL --use-tidevice --wda-bundle-pattern $WDA_BUNDLE_P
 ```
 
 ## ws-scrcpy
+需要git clone本项目，将压缩包解压到ws-scrcpy clone文件夹下，使用对应版本nodejs直接运行，无需install任何别的东西
 
 ```
 git clone https://github.com/NetrisTV/ws-scrcpy.git
