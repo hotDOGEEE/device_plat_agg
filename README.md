@@ -109,9 +109,7 @@ python3 main.py -s $SERVER_URL --use-tidevice --wda-bundle-pattern $WDA_BUNDLE_P
 ```
 git clone https://github.com/NetrisTV/ws-scrcpy.git
 cd ws-scrcpy
-nvm install 12
-npm install -g node-gyp
-npm install
+nvm install 10.9.0
 npm start
 ```
 
