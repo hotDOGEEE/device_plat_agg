@@ -96,7 +96,7 @@ yum install usbmuxd
 ```
 
 启动
-
+新接入的苹果设备记得要信任电脑
 ```
 SERVER_URL="http://localhost:4000"
 tidevice applist | grep "WebDriverAgent"
